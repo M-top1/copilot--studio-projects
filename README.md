@@ -29,4 +29,6 @@ Generate conversation summaries
 Deploy to a public website
 Status: ✅ Complete (Version 1)
 
+./Chat%20Assistant%20Project/README.md
+
 Project Duration: 2026 - Present
