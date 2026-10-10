@@ -1,5 +1,6 @@
 # copilot--studio-projects
 Microsoft Copilot Studio project portfolio documenting AI agent development, and deployment projects.
+
 This repository showcases practical projects built to develop hands-on experience with:
 
 Microsoft Copilot Studio
