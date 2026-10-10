@@ -1,0 +1,219 @@
+# LB Chat Assistant
+
+## Project Overview
+
+LB Chat Assistant is an AI-powered customer support chatbot built using Microsoft Copilot Studio.
+
+The solution was designed to provide automated responses to customer enquiries, support escalation to human assistance when required, and generate conversation summaries for follow-up activities.
+
+The project also provided hands-on experience with:
+
+- Microsoft Copilot Studio
+- Microsoft Power Platform
+- Dataverse
+- Azure Pay-As-You-Go Billing
+- Environment Management
+- Solution Management
+- Application Lifecycle Management (ALM)
+
+The chatbot was successfully deployed to a live landing page and tested using a Sandbox environment.
+
+---
+
+## Features
+
+### Customer Support
+
+- Responds to customer enquiries
+- Provides information based on configured instructions and knowledge
+- Requests clarification when user questions are unclear
+
+### Customer Escalation
+
+**Custom Skill:** `customer-escalation`
+
+Functionality:
+
+- Escalates unresolved enquiries
+- Supports transfer to human assistance
+- Captures information for follow-up actions
+
+### Email Chat Summary
+
+**Custom Skill:** `email-chat-summary`
+
+Functionality:
+
+- Creates conversation summaries
+- Supports customer follow-up activities
+- Provides a record of interactions
+
+### Website Integration
+
+- Deployed through the Copilot Studio website channel
+- Embedded into a Lovable landing page
+- Accessible through a public website interface
+
+---
+
+## Technologies Used
+
+- Microsoft Copilot Studio
+- Microsoft Power Platform
+- Microsoft Dataverse
+- Microsoft Power Automate
+- Microsoft Azure
+- GitHub
+- Lovable
+
+---
+
+## Project Timeline
+
+### Phase 1 - Agent Creation
+
+- Created LB Chat Assistant
+- Configured agent instructions
+- Tested baseline functionality
+
+### Phase 2 - Skills Development
+
+- Created customer-escalation skill
+- Created email-chat-summary skill
+- Added reusable agent capabilities
+
+### Phase 3 - Troubleshooting and Learning
+
+- Investigated Dataverse access issues
+- Resolved permission-related configuration problems
+- Diagnosed Copilot Studio capacity and credit limitations
+
+### Phase 4 - Environment and Billing Configuration
+
+- Created Azure subscription
+- Created Azure resource group
+- Configured Pay-As-You-Go billing
+- Added Copilot metering
+- Linked environments to the billing plan
+
+### Phase 5 - Solution Deployment
+
+- Created custom publisher
+- Created Power Platform solution
+- Added agent components to the solution
+- Exported solution from the Default environment
+- Imported solution into the Sandbox environment
+
+### Phase 6 - Website Deployment
+
+- Configured agent authentication
+- Enabled the website channel
+- Embedded the chatbot into a Lovable landing page
+- Completed end-to-end testing
+
+---
+
+## Troubleshooting and Deployment
+
+### Challenge
+
+Agent testing was initially blocked by environment capacity and configuration issues.
+
+**Error**
+
+```text
+EnforcementUsageCredits
+This environment is out of credits.
+```
+
+### Investigation
+
+Activities completed:
+
+- Reviewed agent configuration
+- Verified custom skills
+- Investigated Dataverse permissions
+- Tested alternative environments
+- Researched billing and licensing requirements
+- Reviewed Microsoft documentation
+
+### Resolution
+
+Implemented the following solution:
+
+- Created a Sandbox environment
+- Configured Azure Pay-As-You-Go billing
+- Added the Copilot meter
+- Linked environments to the billing plan
+- Created a solution package
+- Migrated the agent from the Default environment to the Sandbox environment
+
+### Outcome
+
+✅ Agent successfully deployed
+
+✅ Preview functionality restored
+
+✅ Website deployment enabled
+
+✅ Chatbot successfully embedded on a live landing page
+
+✅ End-to-end testing completed
+
+---
+
+## Skills Demonstrated
+
+### Microsoft Copilot Studio
+
+- Agent creation
+- Agent configuration
+- Agent testing
+- Agent deployment
+- Website channel configuration
+
+### Power Platform
+
+- Environment management
+- Solution management
+- Application Lifecycle Management (ALM)
+
+### Dataverse
+
+- Security troubleshooting
+- Permission management
+- Environment configuration
+
+### Azure
+
+- Subscription configuration
+- Resource group management
+- Pay-As-You-Go billing setup
+
+### Deployment
+
+- Solution export and import
+- Environment migration
+- Website deployment
+
+### Troubleshooting
+
+- Root cause analysis
+- Environment troubleshooting
+- Capacity issue resolution
+- Configuration management
+
+---
+
+## Project Status
+
+**Status:** ✅ Complete (Version 1)
+
+### Current Deployment
+
+- Environment: LB Sandbox
+- Publishing Channel: Website
+- Website Platform: Lovable
+- Testing Status: Successful
+
+LB Chat Assistant has been successfully built, deployed, tested, and embedded into a live website using Microsoft Copilot Studio, Power Platform, Dataverse, Azure Pay-As-You-Go billing, and solution-based deployment practices.
