@@ -21,6 +21,7 @@ Application Lifecycle Management (ALM)
 The portfolio currently includes:
 
 **Chat Assistant Project**
+
 An AI-powered customer support chatbot designed to:
 
 Respond to customer enquiries
