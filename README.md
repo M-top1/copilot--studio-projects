@@ -25,9 +25,13 @@ The portfolio currently includes:
 An AI-powered customer support chatbot designed to:
 
 Respond to customer enquiries
+
 Escalate unresolved issues to human support
+
 Generate conversation summaries
+
 Deploy to a public website
+
 Status: ✅ Complete (Version 1)
 
 [./Chat%20Assistant%20Project/README.md](https://github.com/M-top1/copilot--studio-projects/blob/main/Chat-Assistant-Project)
